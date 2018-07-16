@@ -8,7 +8,7 @@ body {
     top: 0;
 }
 html {
-    /*background-image: url(https://unsplash.imgix.net/photo-1423683249427-8ca22bd873e0?fit=crop&fm=jpg&h=700&q=75&w=1050);*/
+    background-image: url("../images/home.jpg");
     background-position: center center;
     background-size: cover;
 }

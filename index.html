@@ -6,32 +6,19 @@
 		<link rel="stylesheet" href="css/styles.css" type="text/css" />
 	</head>
 	<body id="div_first">
-
-	<div class="neato-header">
-		<h2>刘雪岗的个人网站</h2>
-		<h3>Liu Xuegang's Personal Website</h3>
-		<ul>
-			<li><a href="https://xuegangliu.github.io/book">日志</a></li>
-			<li><a href="home/index.html">个人网页</a></li>
-			<li><a href="https://xuegangliu.github.io/blog">博客</a></li>
-		</ul>
-	</div>
-	<footer>
-		<address>
-			此文档的作者：<a href="mailto:1453860636@qq.com">Xuegang Liu</a>
-		</address>
-		<!--<img id="div_first" src='./image/first1.jpg' style="width:1348px;height:657px; "/>-->
-	</footer>
+		<div class="neato-header">
+			<h2>刘雪岗的个人网站</h2>
+			<h3>Liu Xuegang's Personal Website</h3>
+			<ul>
+				<li><a href="https://xuegangliu.github.io/book">日志</a></li>
+				<li><a href="home/index.html">个人网页</a></li>
+				<li><a href="https://xuegangliu.github.io/blog">博客</a></li>
+			</ul>
+		</div>
+		<footer>
+			<address>
+				此文档的作者：<a href="mailto:1453860636@qq.com">Xuegang Liu</a>
+			</address>
+		</footer>
 	</body>
-<script type="application/javascript">
-    document.body.style.background = "url('images/1-(1).jpg')";
-    // var imgs =["first1.jpg"];       //（设定想要显示的图片）
-    function time(){
-        var i = Math.floor(Math.random()*(24+1)+1); //（获取随机数，设置m~n的随机，此处3是代表n，0处是m，可以替换）
-        console.log(i);
-		var fileName = "1-("+i+").jpg";
-        // document.getElementById("div_first").src ="./images/"+fileName;  //红色部分是自定义的图片文件夹目录
-        document.body.style.background = "url('images/"+fileName+"')";
-    }setInterval("time()",5000);           //设定为3秒，可更换
-</script>
 </html>

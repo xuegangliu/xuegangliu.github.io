@@ -4,67 +4,82 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<title>Liu Xuegang's Personal Website</title>
 		<link rel="stylesheet" href="css/styles.css" type="text/css" />
-		<script>
-			var _hmt = _hmt || [];
-			(function() {
-			  var hm = document.createElement("script");
-			  hm.src = "https://hm.baidu.com/hm.js?de5d88eb2cd09680661d63415f478923";
-			  var s = document.getElementsByTagName("script")[0]; 
-			  s.parentNode.insertBefore(hm, s);
-			})();
-		</script>
-
 		<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+		<script>
+            /*百度统计*/
+            var _hmt = _hmt || [];
+            (function() {
+                var hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?de5d88eb2cd09680661d63415f478923";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+            })();
+		</script>
 		<script type="text/javascript">
-    /* 鼠标特效 */
-    var a_idx = 0;
-    $(function() {
-        $("body").click(function(e) {
-            var a = new Array("❤Python❤","❤Julia❤","❤PHP❤","❤C❤","❤C++❤","❤C#❤","❤Java❤","❤Go❤","❤ASM❤","❤SQL❤","❤HTML❤","❤CSS❤","❤Javascript❤");
-            var $i = $("<span></span>").text(a[a_idx]);
-            a_idx = (a_idx + 1) % a.length;
-            var x = e.pageX,
-                y = e.pageY;
-            $i.css({
-                "z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
-                "top": y - 20,
-                "left": x,
-                "position": "absolute",
-                "font-weight": "bold",
-                "color": "rgb("+~~(255*Math.random())+","+~~(255*Math.random())+","+~~(255*Math.random())+")"
-            });
-            $("body").append($i);
-            $i.animate({
-                    "top": y - 180,
-                    "opacity": 0
-                },
-                1500,
-                function() {
-                    $i.remove();
-                });
-        });
-    });
+			/* 鼠标特效 */
+			var a_idx = 0;
+			/*$(function() {
+				$("body").click(function(e) {
+				    var a = new Array("❤Python❤","❤Julia❤","❤PHP❤","❤C❤","❤C++❤","❤C#❤","❤Java❤","❤Go❤","❤ASM❤","❤SQL❤","❤HTML❤","❤CSS❤","❤Javascript❤");
+				    var $i = $("<span></span>").text(a[a_idx]);
+				    a_idx = (a_idx + 1) % a.length;
+				    var x = e.pageX,
+				        y = e.pageY;
+				    $i.css({
+				        "z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
+				        "top": y - 20,
+				        "left": x,
+				        "position": "absolute",
+				        "font-weight": "bold",
+				        "color": "rgb("+~~(255*Math.random())+","+~~(255*Math.random())+","+~~(255*Math.random())+")"
+				    });
+				    $("body").append($i);
+				    $i.animate({
+				            "top": y - 180,
+				            "opacity": 0
+				        },
+				        1500,
+				        function() {
+				            $i.remove();
+				        });
+				});
+			});*/
 		</script>
 	</head>
 	<body id="div_first">
+	<div style="height: 90%">
 		<div class="neato-header">
-			<h2>个人网站</h2>
-			<h3>Liu Xuegang's Personal Website</h3>
-			<ul>
-				<li><a href="https://xuegangliu.github.io/book">日志</a></li>
-				<!-- <li><a href="home/index.html">个人网页</a></li> -->
-				<li><a href="https://xuegangliu.github.io/blog">博客</a></li>
-				<li><a href="https://github.com/college-design">练习项目</a></li>
-				<li><a href="https://htmlsite.github.io/reading-notes/#/">读书记录</a></li>
-			</ul>
+			<h2>俩天</h2>
+			<h3><a href="home/index.html">Liu Xuegang's Personal Website</a></h3>
+			<div class="neato-header_context">
+				<div class="context_left">
+					<ul>
+						<li><a href="https://xuegangliu.github.io/book">日志</a></li>
+						<!-- <li><a href="home/index.html">个人网页</a></li> -->
+						<li><a href="https://xuegangliu.github.io/blog">博客</a></li>
+						<li><a href="https://github.com/college-design">练习项目</a></li>
+						<li><a href="https://htmlsite.github.io/reading-notes/#/">读书记录</a></li>
+					</ul>
+				</div>
+				<!--<div class="context_right">
+					<ul>
+						<li><a href="https://xuegangliu.github.io/book">日志</a></li>
+						&lt;!&ndash; <li><a href="home/index.html">个人网页</a></li> &ndash;&gt;
+						<li><a href="https://xuegangliu.github.io/blog">博客</a></li>
+						<li><a href="https://github.com/college-design">练习项目</a></li>
+						<li><a href="https://htmlsite.github.io/reading-notes/#/">读书记录</a></li>
+					</ul>
+				</div>-->
+			</div>
+
 		</div>
-		<footer>
-			<address style="color: red">
-				<!-- 此文档的作者：<a href="mailto:1453860636@qq.com">Xuegang Liu</a> -->
-				此文档的作者：<a href="home/index.html" style="color: red">Xuegang Liu</a>
-			</address>
-		</footer>
+	</div>
+	<div class="footer_info">
+		<center>
+			<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1278587277'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "v1.cnzz.com/z_stat.php%3Fid%3D1278587277%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+			<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1278587277'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "v1.cnzz.com/z_stat.php%3Fid%3D1278587277%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script>
+		</center>
+	</div>
 	</body>
 </html>
-<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1278587277'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "v1.cnzz.com/z_stat.php%3Fid%3D1278587277%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
-<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1278587277'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "v1.cnzz.com/z_stat.php%3Fid%3D1278587277%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script>

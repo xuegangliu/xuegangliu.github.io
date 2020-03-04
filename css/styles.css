@@ -1,3 +1,11 @@
+
+html {
+    background-image: url("../images/ok.jpg");
+    /*background: #87b3ff;*/
+    /*background-position: center center;*/
+    background-size: cover;
+}
+
 html,
 body {
     overflow: hidden;
@@ -6,15 +14,9 @@ body {
     width: 100%;
     left: 0;
     top: 0;
+    /*background-color: rgba(0, 0, 0, 0.1);*/
 }
-html {
-    background-image: url("../images/home.jpg");
-    background-position: center center;
-    background-size: cover;
-}
-body {
-    background-color: rgba(0, 0, 0, 0.1);
-}
+
 .neato-header {
     -ms-transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
@@ -69,6 +71,27 @@ body {
     margin-left: 30px;
 }
 
+.neato-header h3>a {
+    color: #e8e8e8;
+}
+
+/*.neato-header a:visited {
+    text-decoration:none
+}
+.neato-header a:hover {
+    text-decoration:none
+}*/
+
+/*.neato-header > .neato-header_context >.context_left{
+    float: left;
+    border: 3px solid white;
+}
+
+.neato-header > .neato-header_context >.context_right{
+    float: right;
+    border: 3px solid white;
+}*/
+
 .neato-header ul li {
     display: block;
     padding: 10px 20px;
@@ -86,4 +109,9 @@ body {
 .neato-header ul li  a:hover {
     background: #ffffff;
     color: #000000;
+}
+
+.footer_info {
+    margin: 0 25%;
+    background: #ccce01;
 }
